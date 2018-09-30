@@ -6,7 +6,7 @@ export default class Forecast extends React.Component {
         return (
             
             <View style={{flex:1,flexDirection: 'column',alignItems:'center'}}>
-                <View style={{alignSelf:'stretch',height:250,backgroundColor:'pink',opacity:.5}}>
+                <View style={{alignSelf:'stretch',height:250,backgroundColor:'black',opacity:.5}}>
                     <Text style= {styles.text1}>{"\n"}Zip code is {this.props.zipcode}.</Text> 
                     <Text style= {styles.text2}>{"\n"}{this.props.main}</Text>
                     <Text style= {styles.text3}>{"\n"}{this.props.description}</Text>
@@ -18,8 +18,8 @@ export default class Forecast extends React.Component {
     }
 }
 const styles = StyleSheet.create({
-    text1: {textAlign: 'center' , fontSize: 20 , color:'black'},
-    text2: {textAlign: 'center' , fontSize: 30 , color:'black'},
-    text3: {textAlign: 'center' , fontSize: 18 , color:'black'},
-    text4: {textAlign: 'center' , fontSize: 28 , color:'black'},
+    text1: {textAlign: 'center' , fontSize: 20 , color:'pink'},
+    text2: {textAlign: 'center' , fontSize: 30 , color:'pink'},
+    text3: {textAlign: 'center' , fontSize: 18 , color:'pink'},
+    text4: {textAlign: 'center' , fontSize: 28 , color:'pink'},
   });
